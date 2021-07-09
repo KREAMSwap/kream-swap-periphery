@@ -1,0 +1,21 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a1481bd575e825cc30bcc0880ea72c4b3d9544621350aa8e7cd841a278e42e7764736f6c63430006060033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG1 0x48 SHL 0xD5 PUSH22 0xE825CC30BCC0880EA72C4B3D9544621350AA8E7CD841 LOG2 PUSH25 0xE42E7764736F6C634300060600330000000000000000000000 ",
+      "sourceMap": "211:4332:11:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a1481bd575e825cc30bcc0880ea72c4b3d9544621350aa8e7cd841a278e42e7764736f6c63430006060033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG1 0x48 SHL 0xD5 PUSH22 0xE825CC30BCC0880EA72C4B3D9544621350AA8E7CD841 LOG2 PUSH25 0xE42E7764736F6C634300060600330000000000000000000000 ",
+      "sourceMap": "211:4332:11:-:0;;;;;;12:1:-1;9;2:12"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/KreamLibrary.sol\":\"KreamLibrary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"@kreamswap-libs/Kream-swap-core/contracts/interfaces/IKreamFactory.sol\":{\"keccak256\":\"0x3ba6971e08f07566688c49fcafcd08f8e9bab34d9c8c206e8f5f4e26a5eaebb4\",\"urls\":[\"bzz-raw://f6e8e75e64c19ab65c1e908a73ff543fb613499b896a5035e9601317759d46cc\",\"dweb:/ipfs/QmNbm6eQLQLjezQyDziXAp3zcHpYyDV5XRSXL9r3Z9cpFA\"]},\"@kreamswap-libs/Kream-swap-core/contracts/interfaces/IKreamPair.sol\":{\"keccak256\":\"0xea06e4761d827e355c90c4d05803e6bcab10d8721025cf63cfaa9317a86106d0\",\"urls\":[\"bzz-raw://2a3d898ec8f6ea279f586f48f5bc05cfc490682ba1830936cf19acbe8b95e5d8\",\"dweb:/ipfs/QmRp8xFcVf4Snc4UbrTmJy1wpMg6drYub8bTjhLub7Tfoh\"]},\"contracts/libraries/KreamLibrary.sol\":{\"keccak256\":\"0x0c8fe2586a75fd46243a6aefca732fd5df74823899ca26640f431a7797c70f36\",\"urls\":[\"bzz-raw://38063f66af78af42e064dae57cdc873c8ad8e2688d0d18269bf1e946508b7ed9\",\"dweb:/ipfs/Qme68UNCaPcrxFTzaGkqF1Wpwxq2fvio6MvbX8AH2MTJZr\"]},\"contracts/libraries/SafeMath.sol\":{\"keccak256\":\"0x27f0ea82f879b3b01387b583e6d9d0ec858dca3b22b0aad173f8fbda06e761e1\",\"urls\":[\"bzz-raw://0db9cf37793eb7035f0bfced36323d240f0212150009c39a3a108701d9b50b6c\",\"dweb:/ipfs/QmUAdiG9XNcieXkKfiMB49zQqD34FbXFE15csV2KQzwEqg\"]}},\"version\":1}",
+  "interface": [],
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a1481bd575e825cc30bcc0880ea72c4b3d9544621350aa8e7cd841a278e42e7764736f6c63430006060033"
+}
